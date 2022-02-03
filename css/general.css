@@ -28,6 +28,6 @@ body {
 
 .container {
   /* 1140px */
-  padding: 0 15rem;
-  margin: 0 auto;
+  padding: 0 5rem;
+  margin: 10rem auto;
 }
