@@ -41,8 +41,8 @@
 }
 .section-card-img {
   display: grid;
-  grid-template-columns: 0.6fr 3fr;
-  column-gap: 1.5rem;
+  grid-template-columns: 0.7fr 3fr;
+  column-gap: 7rem;
   padding: 0.5rem;
   /* display: flex;
   column-gap: 13.5rem; */
@@ -57,7 +57,36 @@
   display: flex;
   column-gap: 1rem;
 }
+.azizjon img {
+  width: 60%;
+}
 .section-cards {
   border-left: 2px solid #e8e8e8;
   margin-left: 25rem;
+}
+.aa12 {
+  background-image: url("../images/Group\ 853.png");
+}
+.master-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  /* grid-template-rows: 1.5fr 0.5fr 0.5fr; */
+}
+.master-card {
+  margin-left: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  overflow: hidden;
+}
+.master-card-name {
+  font-size: 1.8rem;
+}
+.master-card-nm {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.master-card img:hover {
+  transform: scale(1.1);
 }
