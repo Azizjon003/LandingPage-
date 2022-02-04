@@ -20,6 +20,7 @@ body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
+  background-color: #ddd;
 }
 
 /**************************/
@@ -28,6 +29,10 @@ body {
 
 .container {
   /* 1140px */
-  padding: 80%;
+  width: 80%;
   margin: 0 auto;
+}
+.empty {
+  height: 4.4rem;
+  background: none;
 }
